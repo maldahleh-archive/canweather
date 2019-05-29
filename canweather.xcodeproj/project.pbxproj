@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		679434EC229F454300A008DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679434EB229F454300A008DA /* AppDelegate.swift */; };
-		679434EE229F454300A008DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679434ED229F454300A008DA /* ViewController.swift */; };
+		679434EE229F454300A008DA /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679434ED229F454300A008DA /* ForecastViewController.swift */; };
 		679434F1229F454300A008DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679434EF229F454300A008DA /* Main.storyboard */; };
 		679434F4229F454300A008DA /* canweather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 679434F2229F454300A008DA /* canweather.xcdatamodeld */; };
 		679434F6229F454400A008DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679434F5229F454400A008DA /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		679434E8229F454300A008DA /* canweather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = canweather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		679434EB229F454300A008DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		679434ED229F454300A008DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		679434ED229F454300A008DA /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
 		679434F0229F454300A008DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		679434F3229F454300A008DA /* canweather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = canweather.xcdatamodel; sourceTree = "<group>"; };
 		679434F5229F454400A008DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				679434EB229F454300A008DA /* AppDelegate.swift */,
-				679434ED229F454300A008DA /* ViewController.swift */,
+				679434ED229F454300A008DA /* ForecastViewController.swift */,
 				679434EF229F454300A008DA /* Main.storyboard */,
 				679434F5229F454400A008DA /* Assets.xcassets */,
 				679434F7229F454400A008DA /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				679434F4229F454300A008DA /* canweather.xcdatamodeld in Sources */,
-				679434EE229F454300A008DA /* ViewController.swift in Sources */,
+				679434EE229F454300A008DA /* ForecastViewController.swift in Sources */,
 				679434EC229F454300A008DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

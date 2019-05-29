@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ForecastViewController.swift
 //  canweather
 //
 //  Created by Mohammed Al-Dahleh on 2019-05-29.
