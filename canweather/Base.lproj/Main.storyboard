@@ -13,7 +13,7 @@
         <!--Forecast View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ForecastViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ForecastViewController" customModule="canweather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,47 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="895.6521739130435" y="145.98214285714286"/>
+            <point key="canvasLocation" x="1887" y="137"/>
+        </scene>
+        <!--City Selection View Controller-->
+        <scene sceneID="JB2-uB-Ms6">
+            <objects>
+                <viewController id="lIV-lY-y4D" customClass="CitySelectionViewController" customModule="canweather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KRY-AI-dFV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UKB-fB-RMP">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="SUM-xl-83x">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SUM-xl-83x" id="jaa-e5-CF4">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UKB-fB-RMP" firstAttribute="top" secondItem="yiP-Eu-ndY" secondAttribute="top" id="5jv-c3-pt6"/>
+                            <constraint firstItem="UKB-fB-RMP" firstAttribute="bottom" secondItem="yiP-Eu-ndY" secondAttribute="bottom" id="EUC-OY-LfQ"/>
+                            <constraint firstItem="UKB-fB-RMP" firstAttribute="leading" secondItem="yiP-Eu-ndY" secondAttribute="leading" id="MIf-WH-nox"/>
+                            <constraint firstItem="UKB-fB-RMP" firstAttribute="trailing" secondItem="yiP-Eu-ndY" secondAttribute="trailing" id="zXE-px-dfL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yiP-Eu-ndY"/>
+                    </view>
+                    <connections>
+                        <outlet property="cityTableView" destination="UKB-fB-RMP" id="d41-Vn-cxa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qA4-8B-b96" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-123" y="146"/>
         </scene>
     </scenes>
 </document>
